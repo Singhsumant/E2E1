@@ -1,0 +1,61 @@
+.flex-container {
+    display: flex; 
+    width: 100vw;
+    height: 100vh;
+    
+    
+}
+
+.flex-child {
+    flex: 50%;
+    margin-left: 10px;
+    
+}  
+.icon{
+    position: relative;
+    bottom: 80px;
+    left: 20px;
+
+}
+
+.flex-child:first-child {
+    
+     margin-right: 15px;
+     border-right: 10px solid darkblue; 
+} 
+.our{
+    color: darkblue;
+    border-bottom: 4px solid skyblue;
+    font-family: sans-serif;
+}
+.vision{
+    color: deepskyblue;
+    font-family: sans-serif;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    size: 4px;
+}
+li::marker {
+    font-size: 70px; /* Adjust the bullet size as needed */
+    color:deepskyblue; /* Optional: Change the bullet color */
+}
+h2{
+    font-family: sans-serif;
+}
+h4{
+    font-family: sans-serif;
+}
+p{
+    font-family: sans-serif;
+}
+
+@media only screen and (max-width:900px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
+
